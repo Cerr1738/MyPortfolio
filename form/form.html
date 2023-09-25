@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="for"> <div class="reg"><h1>REGISTRATION</h1> 
+       <div class="names">
+        <input type="text" required class="first" placeholder="Firstname">
+        <input type="text" required placeholder="Secondname">
+       </div><br>
+       <input type="email" required placeholder="Email"><br> <br>
+        <input type="tel " placeholder="Phone"><br> <br>
+        <input type="text" placeholder="Address"><br> <br>
+        <h3>D.O.B</h3><input type="date" > <br><br>
+        <div class="stgen">
+            <select name="" id="">
+                <option value="">State of Origin</option>
+                <option value="">Abia</option>
+                <option value="">Kwara</option>
+                <option value="">Abuja</option>
+                <option value="">Akwa ibom</option>
+            </select> 
+            
+            <select name="" id="">
+                <option value="">Gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Others</option>
+            </select> 
+        </div> <br>
+        <input type="name" id="user" placeholder="Username"> <br><br>
+        <input type="password" placeholder="Create password"><br><br>
+        <input type="password" placeholder="Confirm password"><br> <br>
+        <button id="sub">Register</button>
+    </div>
+    </form>
+    <form action="" class="for">
+        <h2>LOGIN</h2>
+    <input type="text" placeholder="Username" id="use"> <br><br>
+    <input type="password" placeholder="Password" id="use"><br><br>
+    <button>Login</button>
+    </form>
+    
+         
+    <style>
+        body{
+            background: url(/leonid-antsiferov-DwSMLiMz64U-unsplash.jpg) no-repeat ;
+            background-size: cover;
+        }
+        #for{
+            background-color: transparent;
+            width: 400px;
+            height: 630px;
+            margin-left: 50px;
+            border-radius: 10px;
+            box-shadow: 1px 2px 5px 1px;
+            margin-top: 30px;
+            
+        }
+        #for{
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3); 
+        }
+       
+         input{
+            color: blue;
+            margin-left: 20px;
+            padding: 3px;
+            height: 30px;
+            width: 350px;
+            border-radius: 5px;
+            border: none;
+            caret-color: blue;
+         }
+         input:focus{
+            outline-color: blue;
+            
+         }
+         h3{
+            margin-left: 20px ;
+            margin-top: -6px;
+            color: white;
+
+         }
+         select{
+            margin-left: 20px;
+            padding: 3px;
+            width: 200px;
+            border-radius: 5px;
+            height: 30px;
+         }
+         select:focus{
+            outline-color: blue;
+         
+         }
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            margin-top: 20px;
+            color: white;
+        }
+        
+        #sub{
+            margin-left: 140px;
+            margin-top: -10px;
+            width: 120px;
+            height: 30px;
+            background-color: #163d8c;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+        }
+        .for{
+            background-color: transparent;
+            width: 300px;
+            height: 260px;
+            margin-left: 600px;
+            border-radius: 10px;
+            box-shadow: 1px 2px 5px 1px;
+           position: relative;
+            bottom: 600px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        h2{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+        }
+        #use{
+           width:250px;
+           height: 30px;
+           text-align: center;
+        }
+        button{
+            width: 70px;
+            height: 30px;
+            margin-left: 120px;
+            margin-top: 30px;
+            border-radius: 5px;
+            border: none;
+            background-color: #163d8c;
+            color: white;
+        }
+        .names{
+            display: flex;
+            margin-right:50px;
+            
+            
+            
+        }
+        .stgen{
+            display: flex;
+            margin-right: 23px;
+        }
+        
+        
+        @media screen and (max-width:768px) and (min-width:480px){
+            #for{
+                width: 400px;
+                margin: 100px auto;
+                
+    }
+    
+    .for{
+        float: right;
+        margin-top: 600px;
+        margin-right: 120px;
+    }
+   
+}
+    </style>
+</body>
+</html>

@@ -1,0 +1,227 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+    height: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 8px 0px grey;
+}
+nav .links{
+    float: right;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+nav .links li{
+    list-style: none;
+}
+nav .links a{
+    display: block;
+    padding: 50px;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+    border: none;
+
+}
+.links a:hover{
+    transform: scale(1.1);
+    color: #f3bc1c;
+    
+
+}
+#nav-toggle{
+    position: absolute;
+    top: -100px;
+}
+nav .icon-burger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+nav .icon-burger .line{
+    width: 30px;
+    height: 5px;
+    background-color:black;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+.contact{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+}
+.contact:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    color:#f3bc1c ;
+     border: 1px solid #f3bc1c;
+}
+h1{
+    font-size: 40px;
+    margin-top: 200px;
+    color: white;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ #back{
+    position: absolute;
+    font-size: larger;
+    left: 0;
+    right: 0;
+    top: 100px; 
+    height: 600px;
+    background-color:rgb(75,73,73);
+
+    
+}
+
+h2{
+    margin-left: 60px;
+    color: white;
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif;
+} h3{
+    margin-left:135px;
+    color: orange;
+    font-size:35px;
+    margin-top: -75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.note{
+    font-size: 13px;
+    color: white;
+    margin-left: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+    
+ #contact{
+   box-sizing: content-box;
+   width: 130px;
+   height: 40px;
+   border-radius: 10px;
+   background-color: orange;
+   color: white;
+   border: 2px solid rgb(75,73,73);
+   margin-left: 60px;
+   margin-top: 20px;
+ 
+}
+#contact:hover{
+    transform: scale(1.0);
+    background: transparent;
+    color: orange;
+    border: 1px solid orange;
+
+}
+
+#learn{
+    box-sizing: content-box;
+   width: 130px;
+   height: 40px;
+   border-radius: 10px;
+   background: transparent;
+   color: orange;
+   border: 2px solid orange;
+   margin-left: 30px;
+   margin-top: 20px;
+
+}
+#learn:hover{
+    transform: scale(1.0);
+    background-color: orange;
+    color: white;
+
+}.pic{
+    border: 0px solid grey;
+    margin-top: 180px;
+    width: 1100px;
+    height:200px;
+    margin-left: 90px;
+    box-shadow: 0px 1px 4px 0px;
+    border-radius: 10px;
+} img{
+    width: 170px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.fast{
+    background-color: rgb(247, 226, 208);
+    margin-top: 30px;
+    width:1265px ;
+    height: 70px;
+    
+}h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 120px;
+    padding: 20px;
+    color: rgb(53, 53, 143);
+}#bcv{
+    width: 600px;
+}
+h5{
+  margin-left: 700px;
+  font-size: 35px;
+  margin-top: 200px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: orange;
+}
+.lorem{
+    font-size: medium;
+    margin-left: 700px;
+    border: 1px solid white;
+    box-sizing: content-box;
+    width: 500px;
+    margin-top:-20px;
+}
+#read{
+    margin-left: 700px;
+    background-color: orange;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid orange;
+}
+.blue{
+    border: 2px solid rgb(176, 213, 228) ;
+    background-color: rgb(176, 213, 228);
+    width: 1260px;
+    height: 600px;
+    margin-top: 100px;
+}
+.blue img{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+ .blue img #imgtwo{
+    margin-top: -200px;
+}
+@media screen and (min-width:300px) and (max-width:480px) {
+    
+
+
+}
+    
+
+

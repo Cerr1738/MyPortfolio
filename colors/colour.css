@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.col{
+    border: 5px solid black ;
+    width: 350px;
+    height: 280px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.mar{
+    border: 5px solid white;
+    width: 30px;
+    height: 30px;
+    
+
+}   
+#red{
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+   
+}
+#purple{
+    background-color: rgb(128, 0, 90);
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: 30px 0px 100px 0px;
+   
+}
+#green{
+    background-color: green;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -90px 50px 0px 0px;
+    
+
+}
+#yellow{
+    background-color: yellow;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: 10px 50px 100px 0px;
+    
+    
+}
+#blue{
+    background-color: blue;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-bottom: -700px;
+    margin-top: -18px;
+   
+}
+#violet{
+    background-color: violet;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -18px 0px 100px 70px;
+
+}
+#pink{
+    background-color: pink;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -18px 0px 100px 70px;
+}
+#orange{
+    background-color: orange;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -18px 0px 100px 70px;
+}
+#brown{
+    background-color: brown;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -18px 0px 100px 70px; 
+}
+#grey{
+    background-color: grey;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -18px 0px 100px 70px; 
+}
+#black{
+    background-color: black;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -18px 0px 100px 70px;
+     
+}
+#aqua{
+    background-color: aqua;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -18px 0px 100px 70px; 
+}
+#indigo{
+    background-color: indigo;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -18px 50px 0px 70px;
+}
+#Lg{
+    background-color: limegreen;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -18px 50px 0px 70px;
+}
+#cream{
+    background-color: coral;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -36px 50px 0px 70px;
+}
+#ash{
+    background-color: palevioletred;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: -19px 50px 0px 70px;
+}
+#orangered{
+    background-color: orangered;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: 10px 50px 100px 70px;
+}
+#olive{
+    background-color: olive;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: 10px 50px 90px 70px; 
+}
+#Ry{
+    background-color: royalblue;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: 10px 50px 100px 70px;
+}
+#gold{
+    background-color: gold;
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    margin: 10px 50px 100px 70px;
+}
+
+

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    z-index: 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+    height: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 8px 0px grey;
+}
+nav .links{
+    float: right;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+nav .links li{
+    list-style: none;
+}
+nav .links a{
+    display: block;
+    padding: 50px;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+
+}
+.links a:hover{
+    transform: scale(1.1);
+    color: orange;
+    border: 1px solid white;
+
+}
+nav .contact{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:white;
+    color: orange;
+    border: 2px solid orange;
+}
+.contact:hover{
+    transform: scale(1.1);
+    background-color: orange;
+    color:white ;
+     border: 1px solid orange;
+}
+.about{
+    background-color:rgb(36,100,164);
+    position: absolute;
+    top:100px;
+    height: 150px;
+    width: 1270px;
+    left: 0;
+}
+h1{
+    margin-left:30px;
+    color: white;
+    font-size: 30px;
+    
+}
+.bara{
+    margin-top: 270px;
+
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 40px;
+    margin-left: 50px;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bolder;
+    margin-left: 50px;
+    font-size:30px ;
+   
+}h3{
+    color: rgb(78, 78, 218);
+    font-size: 25px;
+    margin-left: 50px;
+}
+p{
+    margin-right: 700px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img{
+    margin-left: 700px;
+    margin-top: -350px;
+}
+#meet{
+    margin-top: 50px;
+    background-color: rgb(36,100,164);
+}
+.the{
+    margin-top: 200px;
+    margin-left:200px;
+}
+.one{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 20px;
+    border-radius: 0px 40px 0px 0px;
+
+}.two{
+    margin-right: 20px;
+    border-radius: 0px 40px 0px 0px;
+
+}
+.three{
+    margin-right: 10px;
+    border-radius: 0px 40px 0px 0px;
+
+}.four{
+    border-radius: 0px 40px 0px 0px;
+
+}
+
+
+    </style>
+    <nav>
+        <ul class="links">
+            <li> <a href="constructionsite.html">HOME</a></li>
+            <li><a href="">ABOUT US</a> </li>
+            <li><a href="#">SERVICES</a> </li>
+            <li><a href="#">PROJECT</a> </li>
+            <input type="button" value="Contact Us" class="contact">
+        </ul>
+    </nav>
+        <div class="about">
+            <h1>ABOUT US</h1>
+        </div>
+        <div class="bara"> <h2>BAVARIA CONSTRUCTION</h2> 
+            <h3>We are the leaders in the Industry</h3>
+           <p> “Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.” “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.” “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. 
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.” “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at 
+            turpis condimentum lobortis.”</p></div>
+
+
+            <div class="img"> <img src="about_us image.png" alt=""></div>
+
+
+            <div id="meet"> <h1 class="the">MEET THE TEAM</h1> <img src="01.jpg" alt="" class="one" >
+                 <img src="02.jpg" alt="" class="two">
+                <img src="03.jpg" alt="" class="three">
+                <img src="04.jpg" alt="" class="four"> 
+            </div>
+</body>
+</html>
