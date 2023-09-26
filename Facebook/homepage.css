@@ -1,0 +1,602 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 244, 252);
+  
+}
+nav{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    height: 25px;
+    margin-right: 100px;
+    background-color: white;
+    width: 100%;
+}
+.search img{
+    position: absolute;
+    right:1250px;
+    bottom:8px;
+    width: 30px;
+}
+.search input{
+    position: absolute;
+    right: 1080px;
+    bottom:7.5px ;
+    border: 1px grey solid;
+    text-align: left;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+ nav .link{
+    float: right;
+    width: 1150px;
+    height: 10px;
+    display: flex;
+    list-style: none;
+    margin-top: 17px;
+}
+nav .link li{
+    margin-bottom: 20px;
+}
+.search{
+    display: flex;
+    margin-right:300px;
+    margin-left: -50px;
+    align-items: center;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons img{
+    width: 30px;
+    padding-left: 45px;
+
+}
+.icons .kits{
+    justify-items: center;
+}
+nav img{
+    margin-left: 15px;
+}
+.notify{
+    display: flex;
+    align-items: center;
+    margin-left: 290px;
+
+}
+.notify img{
+    width: 30px;
+    margin-right: -10px;
+}
+#button{
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    text-align: initial;
+}
+.link .icons .kits li:hover{
+    border-bottom: 3px solid rgb(60, 106, 214);
+}
+.sectionI{
+    width: 200px;
+    height: 650px;
+    margin-top: 10px;
+   
+}
+.list{
+    position:fixed;
+}
+
+.links a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    color: black;
+    font-size: small;
+}
+.links p{
+  margin-left: 10px;
+}
+.links li :hover{
+    background-color: rgb(219, 223, 231);
+} .links img:hover{
+    background-color: rgb(219, 223, 231);
+}
+
+ .links li{
+    list-style: none;
+    /* margin-bottom: 20px; */
+    
+}
+.ghm{
+    display: flex;
+}
+.links{
+    padding-top: 30px;
+}
+.list img{
+    position: absolute;
+    left: -20px;
+    margin-left: 30px;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    
+}
+.drop{
+   margin-left:10px;
+   position: fixed;
+}
+.shortcuts{
+    position: fixed;
+}
+.drop select{
+    background-color: rgb(236, 244, 252);
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.shortcuts{
+    margin-left: 10px;
+}
+.shortcuts h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: small;
+}
+.shortcuts a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: small;
+}
+.shortcuts p{
+    margin-left: 30px;
+}
+.stories{
+    border: none;
+    width: 500px;
+    height: 270px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius:5px;
+}
+.sectionII{
+   margin-left: 350px;
+   margin-top: -610px;
+  
+}
+.story li:hover{
+   color: blue;
+}
+hr:hover{
+    border-bottom: 3px solid blue;
+   
+}
+.stories{
+  width: 550px;
+  align-self: center;
+}
+.story{
+    display: flex;
+    justify-content: space-evenly;
+    /* border-bottom: 1px solid grey; */
+    align-items: center;
+    margin-left: -80px;
+}
+.story li{
+   list-style: none;
+
+}
+.story a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    color: grey;
+  
+} 
+.story img{
+    color: grey;
+}
+.story li{
+    margin-left: 50px;
+    margin-bottom: -15px;
+    margin-top: 20px;
+}
+.story a h2{
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.life{
+display: flex;
+gap:10px;
+padding-left: 15px;
+}
+.life div{
+width:95px;
+height:180px;
+border-radius: 8px;
+gap: 10px;
+}
+.life img{
+width:90px;
+height:180px;
+border-radius:8px;
+}
+.story-updates p{
+    font-size: 0.8rem;
+    color: #fff; 
+    margin-top:-30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.create-story {
+box-shadow: 0px 1px 1px 2px #e1e1e1;
+}
+.create-story p{
+font-size: 0.8rem;
+text-decoration: none;
+font-weight: 600;
+color: #000;
+text-align: center;
+
+
+}
+.create-story img{
+    width:95px;
+    height:120px;
+    border-radius:8px 8px 0 0;
+    background-color: #fff;
+}
+.choose{
+    width: 550px;
+    height: 170px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.choose img{
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.choose h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: large;
+    border-bottom: none;
+}.choose p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: small;
+}button{
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.visit{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(231, 245, 250);
+    color: rgb(102, 145, 215);
+    font-weight: 600 ;
+}
+.lmo{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+.Whats{
+    width: 550px;
+    height: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+.chisom{
+    display: flex;
+    
+}
+.chisom img{
+    width: 30px;
+    height: 30px;
+    background-color: white ;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.chisom input{
+    border-radius: 15px;
+    width: 500px;
+    height: 30px;
+    border: none;
+    background-color: rgb(230, 239, 248);
+    margin-top: 10px;
+    margin-left: 5px;
+}.activities{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.activity {
+   display: flex;
+   justify-content: space-evenly;
+}
+.activities img{
+    width: 30px;
+    height: 20px;
+    margin-top:15px ;
+}
+.activities p{
+    margin-top: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: small;
+    font-weight: 500;
+}
+.video{
+    display: flex;
+    justify-content: space-evenly;
+}.video img{
+    width: 25px;
+    margin-right: 5px;
+}
+.feeling{
+    display: flex;
+    justify-content: space-evenly;
+}.feeling img{
+    width: 25px;
+    margin-right: 3px;
+}
+.posts{
+    width: 550px;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.nextposts{
+    width: 550px;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.john .imgco{
+    width: 30px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius:20px ;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.jennifer .imgpo{
+    width: 30px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius:20px ;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.jennifer h3{
+    font-size: small;
+    margin-left: 60px;
+    margin-top: -40px;
+    color: grey;
+}.jennifer h4{
+    font-size: x-small;
+    margin-left: 60px;
+    margin-top: -12px;
+    color: grey;
+}
+.john h3{
+    font-size: small;
+    margin-left: 60px;
+    margin-top: -40px;
+    color: grey;
+}.john h4{
+    font-size: x-small;
+    margin-left: 60px;
+    margin-top: -12px;
+    color: grey;
+}
+/* }.jennifer .imggr{
+    width: 20px;
+    margin-left: 150px;
+    margin-top: -50px;
+} */
+.bliss p{
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    color: grey;
+}
+.bliss .po{
+   width: 550px;
+   height: 500px;
+}
+.bliss .do{
+    width: 30px;
+} .bliss h6{
+    font-size: medium;
+    margin-top: 10px;
+    margin-left: 15px;
+}.bliss h5{
+    margin-left: 440px;
+    margin-top: -30px;
+    color: grey;
+}
+.bless p{
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    color: grey;
+}
+.bless .po{
+   width: 550px;
+   height: 500px;
+}
+.bless .do{
+    width: 30px;
+} .bless h6{
+    font-size: medium;
+    margin-top: 10px;
+    margin-left: 15px;
+}.bless h5{
+    margin-left: 440px;
+    margin-top: -30px;
+    color: grey;
+}
+.cdc{
+    display:flex;
+    justify-content: space-evenly;
+}.like{
+    display: flex;
+    align-items: first baseline;
+}
+.cdc p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    color: grey;
+}
+.comment{
+    display: flex ;
+    align-items: first baseline;
+}.share{
+    display: flex;
+    align-items: first baseline;
+}
+.cac{
+    display:flex;
+    justify-content: space-evenly;
+}.cac .like{
+    display: flex;
+    align-items: first baseline;
+}
+.cac p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    color: grey;
+}
+.cac .comment{
+    display: flex ;
+    align-items: first baseline;
+}.cac .share{
+    display: flex;
+    align-items: first baseline;
+}
+
+
+.sectionIII{
+    float: right;
+    position: relative;
+    top: -570px;
+    right: 250px;
+}h6{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 500; 
+     color: grey;
+     margin-bottom: 10px;                                             
+}
+.clear{
+    display: flex;
+    margin-bottom: 15px;
+
+} .clear img{
+    border-radius: 5px;
+    margin-right: 10px;
+}.clear p{
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+.see{
+    display: flex;
+    margin-top: -20px;
+}
+.see h6{
+   margin-right: 130px;
+}.see h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500; 
+    color: grey;
+    margin-top: 25px;
+    font-size: 10px;  
+    color: rgb(0, 60, 255);
+}
+.wendy{
+   display: flex;
+}
+.wendy img{
+   margin-right: 10px;
+   border: 2px solid white;
+   border-radius: 15px;
+   background-color: white;
+} 
+.wendy h5{
+    margin-top: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    font-size: x-small;
+}
+.mutual{
+    display: flex;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+.mutual img{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.mutual p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    font-size: x-small;
+    margin-top: -1px;
+    color: grey;
+}
+
+.spon button{
+   border-radius: 5px;
+   border: none;
+   width: 80px;
+   height: 25px;
+}
+.confirm{
+    background-color: #0575df;
+    color: #fff;
+}
+.delete{
+    background-color: rgb(230, 229, 229);
+}.butts{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}.spon{
+    position: fixed;
+}
